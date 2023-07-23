@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+	/* background-image: url("https://img.freepik.com/premium-vector/abstract-vector-pastel-background-with-blur-effect_589004-1048.jpg?w=2000"); */
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+}
+
+.nav-link.active {
+	@apply text-primary;
+}
+
+
+
+.gradient-bg {
+	background: linear-gradient(
+			95deg,
+			#059bff09 15%,
+			#6549d516 45%,
+			#e33fa10a 75%,
+			#fb524300
+		)
+		95%/200% 100%;
+}
+
+.btn-gradient {
+	background: linear-gradient(
+			95deg,
+			#059dff 15%,
+			#6549d5 45%,
+			#e33fa1 75%,
+			#fb5343
+		)
+		95%/200% 100%;
+	@apply text-white px-8;
+}
+
+.btn-gradient:hover {
+	background: linear-gradient(
+			95deg,
+			#059dff 15%,
+			#6549d5 45%,
+			#e33fa1 75%,
+			#fb5343
+		)
+		70%/200% 100%;
+}
+
+
