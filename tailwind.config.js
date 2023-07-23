@@ -14,9 +14,10 @@ export default {
 				primary: "#aaf2f0",
 				tealColor: "#2F6C6D",
 				hummingBirdColor: "#d1f1ee",
-				yellowColor: "##f2dbaa",
+				blueish: "#405398",
 				solitudeColor: "#e9e9ea",
 				grayColor: "#4B4B4C",
+				purple: "#9769B1"
 			},
 			animation: {
 				slide: "slide 25s linear infinite",

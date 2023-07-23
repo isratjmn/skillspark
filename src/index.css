@@ -10,10 +10,8 @@ body {
 }
 
 .nav-link.active {
-	@apply text-primary;
+	@apply text-tealColor;
 }
-
-
 
 .gradient-bg {
 	background: linear-gradient(
@@ -49,4 +47,15 @@ body {
 		70%/200% 100%;
 }
 
+@layer base {
+	img {
+		@apply w-full;
+	}
 
+	.section {
+		@apply container mx-auto py-24 px-6;
+	}
+	.animate-slide:hover {
+		animation-play-state: paused;
+	}
+}

@@ -52,7 +52,7 @@ const AuthProvider = ({ children }) => {
 		setLoading(true);
 		try {
 			await signInWithEmailAndPassword(auth, email, password);
-			return { success: true, message: "Login successful" };
+			return { success: true, message: "Login successful", alignment: "left" };
 		} catch (error) {
 			return { success: false, message: error.message };
 		} finally {
@@ -65,7 +65,7 @@ const AuthProvider = ({ children }) => {
 		const provider = new GoogleAuthProvider();
 		try {
 			await signInWithPopup(auth, provider);
-			return { success: true, message: "Login successful" };
+			return { success: true, message: "Login successful", alignment: "left" };
 		} catch (error) {
 			return { success: false, message: error.message };
 		} finally {
@@ -78,7 +78,7 @@ const AuthProvider = ({ children }) => {
 		const provider = new GithubAuthProvider();
 		try {
 			await signInWithPopup(auth, provider);
-			return { success: true, message: "Login successful" };
+			return { success: true, message: "Login successful", alignment: "right" };
 		} catch (error) {
 			return { success: false, message: error.message };
 		} finally {

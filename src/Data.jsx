@@ -3,49 +3,14 @@ import { FaLaptopCode } from "react-icons/fa";
 import { BsBarChartLine } from "react-icons/bs";
 import { MdOutlineScience } from "react-icons/md";
 
-import courses1 from "./assets/courses1.jpg";
+/* import courses1 from "./assets/courses1.jpg";
 import courses2 from "./assets/courses2.jpg";
 import courses3 from "./assets/courses3.jpg";
 import courses4 from "./assets/courses4.jpg";
 import courses5 from "./assets/courses5.jpg";
 import courses6 from "./assets/courses6.jpg";
 import courses7 from "./assets/courses7.jpg";
-import courses8 from "./assets/courses8.jpg";
-
-import logo1 from "./assets/logo1.png";
-import logo2 from "./assets/logo2.png";
-import logo3 from "./assets/logo3.png";
-import logo4 from "./assets/logo4.png";
-import logo5 from "./assets/logo5.png";
-import logo6 from "./assets/logo6.png";
-
-export const navLinks = [
-	{
-		id: 1,
-		href: "home",
-		link: "Home",
-	},
-	{
-		id: 2,
-		href: "about",
-		link: "About",
-	},
-	{
-		id: 3,
-		href: "courses",
-		link: "Courses",
-	},
-	{
-		id: 4,
-		href: "teacher",
-		link: "Teacher",
-	},
-	{
-		id: 5,
-		href: "contact",
-		link: "Contact",
-	},
-];
+import courses8 from "./assets/courses8.jpg"; */
 
 export const categories = [
 	{
@@ -70,82 +35,96 @@ export const categories = [
 	},
 ];
 
-export const courses = [
+/* export const courses = [
 	{
-		id: 1,
 		image: courses1,
+		images: "https://i.ibb.co/N17qJ5Z/courses1.jpg",
 		category: "Web Design",
-		title: "The Complete Web Design Course",
+		title: "Lakeside Community College",
 		rating: 4.9,
-		participants: 500,
-		price: 105,
+		admissionDates: "Aug 1 - Sep 15",
+		events: "Science Fair, Cultural Fest",
+		researchHistory: "50+ Publications",
+		sports: "Football, Basketball, Swimming",
 	},
 	{
-		id: 2,
 		image: courses2,
+		images: "https://i.ibb.co/zfQvCs0/courses8.jpg",
 		category: "Web Development",
-		title: "FullStack Web Development Course",
+		title: "Maplewood Academy",
 		rating: 4.8,
-		participants: 700,
-		price: 125,
+		admissionDates: "Mar 1 - Apr 30",
+		events: "Research Symposium, Career Expo",
+		researchHistory: "70+ Publications",
+		sports: "Track & Field, Volleyball, Archery",
 	},
 	{
-		id: 3,
 		image: courses3,
+		images: "https://i.ibb.co/yN0nx7Y/courses7.jpg",
 		category: "Web Development",
-		title: "Python Beginner to Advanced Course",
+		title: "Willowbrook Business School",
 		rating: 4.9,
-		participants: 300,
-		price: 99,
+		admissionDates: "May 1 - Jun 30",
+		events: "Music Recital, Orchestra Performance",
+		researchHistory: "10+ Publications",
+		sports: "Singing, Dancing, Instrumental",
 	},
 	{
-		id: 4,
 		image: courses4,
+		images: "https://i.ibb.co/Zz6Dtg6/courses6.jpg",
 		category: "Web Design",
-		title: "UI/UX Design Crazy Course With Harrys",
+		title: "Oakdale Medical College",
 		rating: 4.7,
-		participants: 600,
-		price: 85,
+		admissionDates: "Oct 1 - Nov 30",
+		events: "Annual Graduation, Tech Expo",
+		researchHistory: "150+ Publications",
+		sports: "Soccer, Tennis, Swimming",
 	},
 	{
-		id: 5,
 		image: courses5,
+		images: "https://i.ibb.co/VYrvCXn/courses5.jpg",
 		category: "AI Development",
-		title: "AI Development With Python (complete beginner course)",
+		title: "Cedarwood Film Academy",
 		rating: 4.9,
-		participants: 500,
-		price: 105,
+		admissionDates: "Jul 15 - Aug 30",
+		events: "Art Exhibition, Theater Show",
+		researchHistory: "20+ Publications",
+		sports: "Dance, Martial Arts, Yoga",
 	},
 	{
-		id: 6,
 		image: courses6,
+		images: "https://i.ibb.co/3mb8T0D/courses4.jpg",
 		category: "Web Design",
-		title: "The Complete Web Design Course",
+		title: "Sunridge Medical Institute",
 		rating: 4.9,
-		participants: 500,
-		price: 105,
+		admissionDates: "Aug 1 - Sep 15",
+		events: "Science Fair, Cultural Fest",
+		researchHistory: "50+ Publications",
+		sports: "Football, Basketball, Swimming",
 	},
 	{
-		id: 7,
 		image: courses7,
+		images: "https://i.ibb.co/GRG8fpP/courses3.jpg",
 		category: "Web Design",
-		title: "The Complete Web Design Course",
+		title: "Springdale College",
 		rating: 4.9,
-		participants: 500,
-		price: 105,
+		admissionDates: "Sep 1 - Oct 31",
+		events: "Debate Competition, Music Fest",
+		researchHistory: "80+ Publications",
+		sports: "Tennis, Volleyball, Track & Field",
 	},
 	{
-		id: 8,
 		image: courses8,
+		images: "https://i.ibb.co/hY086Hz/courses2.jpg",
 		category: "Web Design",
-		title: "The Complete Web Design Course",
+		title: "Riverdale Technical College",
 		rating: 4.9,
-		participants: 500,
-		price: 105,
+		admissionDates: "Jul 15 - Aug 30",
+		events: "Art Exhibition, Theater Show",
+		researchHistory: "20+ Publications",
+		sports: "Dance, Martial Arts, Yoga",
 	},
-];
-
-export const logos = [logo1, logo2, logo3, logo4, logo5, logo6];
+] */
 
 export const accordions = [
 	{
@@ -224,24 +203,68 @@ export const blog = [
 ];
 export const testimonal = [
 	{
-		id: 1,
-		name: "ROGER SCOTT",
-		post: "MARKETING MANAGER",
-		desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-		cover: "./images/testo/t1.webp",
+		title: "Great school with excellent programs!",
+		desc: "The Social Sciences Institute explores human behavior and society through interdisciplinary research.",
+		cover: "https://i.ibb.co/BBJVqRM/client1-free-img.png",
+		clientName: "John Doe",
+		address: "Berlin, Germany",
+		date: "2022-04-18",
 	},
 	{
-		id: 2,
-		name: "ROGER SCOTT",
-		post: "MARKETING MANAGER",
-		desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-		cover: "./images/testo/t2.webp",
+		title: "Loved the artistic atmosphere!",
+		desc: "Music Conservatory is dedicated to nurturing musical abilities and fostering artistic expression.",
+		cover: "https://i.ibb.co/hVnLg4w/client2-free-img.png",
+		clientName: "Jane Smith",
+		address: "Vienna, Austria",
+		date: "2022-05-01",
 	},
 	{
-		id: 3,
-		name: "ROGER SCOTT",
-		post: "MARKETING MANAGER",
-		desc: "Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.",
-		cover: "./images/testo/t3.webp",
+		title: "Highly recommended for aspiring athletes!",
+		desc: "The Culinary Academy is a gastronomic haven, cultivating culinary talents for the global food industry.",
+		cover: "https://i.ibb.co/gFzQTNZ/client4-free-img.png",
+		clientName: "David Wilson",
+		address: "Paris, France",
+		date: "2022-05-01",
+	},
+	{
+		title: "Innovative and inspiring!",
+		desc: "The Business School offers comprehensive business programs, shaping future leaders and entrepreneurs.",
+		cover: "https://i.ibb.co/gFzQTNZ/client4-free-img.png",
+		clientName: "Ava Smith",
+		address: "Toronto, Canada",
+		date: "2022-05-01",
+	},
+	{
+		title: "Top-notch culinary training!",
+		desc: "The Sports Academy is a hub of talent, providing top-notch training facilities for aspiring athletes.",
+		cover: "https://i.ibb.co/kJ0X5x3/client3-free-img.png",
+
+		clientName: "Olivia Martinez",
+		address: "Texas, USA",
+		date: "2022-10-01",
+	},
+	{
+		title: "Impressed by their research focus.",
+		desc: "Global Arts Academy celebrates diversity and nurtures artistic talents through world-class training.",
+		cover: "https://i.ibb.co/kJ0X5x3/client3-free-img.png",
+		clientName: "Emily Brown",
+		address: "London, UK",
+		date: "2022-07-01",
+	},
+	{
+		title: "A music lover's paradise!",
+		desc: "At Innovate Institute, innovation is at the core of everything we do, fostering creative thinking and problem-solving.",
+		cover: "https://i.ibb.co/hVnLg4w/client2-free-img.png",
+		clientName: "Sophia Lee",
+		address: "New York, USA",
+		date: "2022-02-01",
+	},
+	{
+		title: "Cutting-edge tech courses!",
+		desc: "Techtonic University offers cutting-edge technology courses and empowers students to become industry leaders.",
+		cover: "https://i.ibb.co/BBJVqRM/client1-free-img.png",
+		clientName: "Michael Johnson",
+		address: "California, USA",
+		date: "2022-02-01",
 	},
 ];
